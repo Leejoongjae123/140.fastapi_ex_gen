@@ -5,6 +5,7 @@ from db import Base
 from db import ENGINE
 
 
+
 class PostingTable(Base):
     __tablename__ = 'posting'
     id = Column(Integer, primary_key=True)

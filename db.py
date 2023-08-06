@@ -5,6 +5,7 @@ from urllib.parse import quote
 from sqlalchemy import create_engine,Column,Integer,String
 from sqlalchemy.orm import sessionmaker, declarative_base
 
+
 # user = "admin" #내꺼
 # pwd = "dlwndwo2"
 # host = "tutorial.crotgxtzxtks.ap-northeast-2.rds.amazonaws.com"

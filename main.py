@@ -75,6 +75,7 @@ async def read_items(keyword: Optional[str] = None, platform: Optional[str] = No
 
     # 페이지 번호에 따라 결과 제한
 
+
     # User 모델로 변환
     return [Posting(id=posting.id, platform=posting.platform, region=posting.region,dday=posting.dday,title=posting.title,demandCount=posting.demandCount,applyCount=posting.applyCount,imageUrl=posting.imageUrl,url=posting.url,myImage=posting.myImage) for posting in postings]
 
